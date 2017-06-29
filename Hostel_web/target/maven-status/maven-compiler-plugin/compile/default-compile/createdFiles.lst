@@ -1,0 +1,5 @@
+com\aartek\validator\RegistrationUserValidator.class
+com\aartek\controller\LoginController.class
+com\aartek\validator\LoginUserValidator.class
+com\aartek\validator\ValidationUtilMap.class
+com\aartek\controller\RegistrationController.class
