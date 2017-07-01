@@ -7,6 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>Header</h1>
+<marquee>
+<h1>Welcome Hostal Management System</h1>
+</marquee>
 </body>
 </html>

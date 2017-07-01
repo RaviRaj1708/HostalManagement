@@ -24,9 +24,9 @@ import com.aartek.validator.RegistrationUserValidator;
 public class LoginController
 {
 	
-	@Autowired
+	/*@Autowired
 	private RegistrationUserValidator v;
-	
+	*/
 	@Autowired
 	private LoginService loginService;
 	
@@ -43,27 +43,27 @@ public class LoginController
 	@RequestMapping(value="/login", method = RequestMethod.POST)
 	public String submitLogin(@ModelAttribute("Registration")Registration reg,BindingResult result,HttpSession session,HttpServletRequest request,HttpServletResponse response)
 	{
-v.validate(reg, result);
+/*v.validate(reg, result);
 		
 		
 		if(result.hasErrors())
 		{
 			return "login";
 		}
-		
+		*/
 		System.out.println("Inside Login Controller");
 		System.out.println(reg.getEmail());
 		System.out.println(reg.getPassword());
 		List<Registration> login=loginService.userLogin(reg);
-/*if(!login.isEmpty()){
+if(!login.isEmpty()){
 			
 			session=request.getSession();
 			session.setAttribute("registration",  reg);
 			
 			
-		return "redirect:/questionAnswer.do";
+		return "redirect:/dashbord.do";
 		}
-		else*/
+	
 		return "login";
 	}	
 }

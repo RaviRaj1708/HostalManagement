@@ -7,13 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>Footer</h1>
-<center>
-	<a href="?lang=en_US">english</a> 
-	| 
-	<a href="?lang=hi_IN">hindi</a>
-</center>
-
+<h1></h1>
 <p style="text-align:center;background:#e5lCf9;">CopyRight &copy;2017 Ravi Malviya</p>
 </body>
 </html>

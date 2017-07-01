@@ -14,32 +14,36 @@
 <table>
 	
     <tr>
-        <td><fmt:message key="firstname.English.hindi"></fmt:message> </td>
-        <td><form:input path="firstName" /></td><td align="right"><form:errors path="firstName"/></td>
+		
+        <td><form:label path="firstName">firstName</form:label></td>
+      <td><form:input path="firstName"/></td><td align="right"><form:errors path="firstName"/></td>
         
          </td>
     </tr>
     
     <tr>
     
-        <td><fmt:message key="lastname.English.hindi"></fmt:message> </td>
-        <td><form:input path="lastName" /></td><td align="right"><form:errors path="lastName"/></td>
+        <td><form:label path="lastName">lastName</form:label></td>
+       <td> <form:input path="lastName" /></td><td align="right"><form:errors path="lastName"/></td>
         </td>
     </tr>
     
      <tr>
      
-        <td><form:input path="email" /></td><td align="right"><form:errors path="email"/></td>
+        <td><form:label path="email">Email</form:label></td>
+        <td>
+        <form:input path="email" /></td><td align="right"><form:errors path="email"/></td>
     </tr>
     
     <tr>
-    
-        <td><form:password path="password"/></td><td align="right"><form:errors path="password"/></td>
+    	<td><form:label path="password">password</form:label></td>
+       <td> <form:password path="password"/></td><td align="right"><form:errors path="password"/></td>
     </tr>
    
     <tr>
      
-        <td><form:password path="mobile"/></td><td align="right"><form:errors path="mobile"/></td>
+        <td><form:label path="mobile">mobile</form:label></td>
+       <td> <form:password path="mobile"/></td><td align="right"><form:errors path="mobile"/></td>
     </tr>
     <tr>
     <td>

@@ -21,5 +21,9 @@
 		<put-attribute name="body" value="/WEB-INF/jsp/registration.jsp" />
 	</definition>
 	
+	<definition name="dashbord" id="dashbord" extends="baseTemplate">
+		<put-attribute name="body" value="/WEB-INF/jsp/dashbord.jsp" />
+	</definition>
+	
 	</tiles-definitions>
 	
